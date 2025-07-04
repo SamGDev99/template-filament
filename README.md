@@ -62,7 +62,7 @@ php artisan make:filament-user
 php artisan shield:super-admin
 
 # Regenerar permisos con Shield
-php artisan shield:generate
+php artisan shield:generate --all
 
 # Servidor local
 composer run dev
