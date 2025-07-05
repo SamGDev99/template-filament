@@ -42,6 +42,11 @@ cd mi-proyecto
 # Copia archivo de entorno
 cp .env.example .env
 
+# Configurar base de datos
+
+# Realizar instalación de usuarios, roles y permisos
+php artisan app:install-template
+
 # Instala dependencias y compila assets
 npm install
 npm run build
