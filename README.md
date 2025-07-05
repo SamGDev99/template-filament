@@ -36,33 +36,15 @@ Incluye configuración inicial de autenticación, gestión de usuarios, roles y 
 
 ```bash
 # Clona el proyecto
-git clone https://github.com/SamGDev99/template-filament.git mi-proyecto
+composer create-project SamGDev99/template-filament mi-proyecto
 cd mi-proyecto
 
 # Copia archivo de entorno
 cp .env.example .env
 
-# Instala dependencias
-composer install
+# Instala dependencias y compila assets
 npm install
-
-# Compila los assets
 npm run build
-
-# Genera la clave de aplicación
-php artisan key:generate
-
-# Ejecuta las migraciones
-php artisan migrate
-
-# Crear el usuario Filament
-php artisan make:filament-user
-
-# Convertirlo en super-admin (acceso total con todos los permisos)
-php artisan shield:super-admin
-
-# Regenerar permisos con Shield
-php artisan shield:generate --all
 
 # Servidor local
 composer run dev
