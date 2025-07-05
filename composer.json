@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "SamGDev99/template-filament",
+    "name": "samgdev99/template-filament",
     "type": "project",
     "description": "Template con Shield y Filament preconfigurado",
     "keywords": ["laravel", "framework"],
